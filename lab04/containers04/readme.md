@@ -34,8 +34,11 @@ apt update                # Обновление списка пакетов
 apt install apache2 -y    # Установка Apache
 service apache2 start     # Запуск Apache
 ```
-
+![image](https://i.imgur.com/LyNr93k.jpeg)
+![image](https://i.imgur.com/LjGqwTA.jpeg)
 Открываем браузер и переходим по адресу: `http://localhost:8000`. Должна загрузиться стандартная страница Apache.
+
+![image](https://i.imgur.com/8OXhJYE.jpeg)
 
 ### 4. Добавление страницы "Hello, World!"
 Выполняем команды:
@@ -46,7 +49,11 @@ ls -l /var/www/html/  # Проверяем содержимое папки с в
 echo '<h1>Hello, World!</h1>' > /var/www/html/index.html  # Создаём страницу
 ```
 
+![image](https://i.imgur.com/yDncLac.jpeg)
+
 Обновляем страницу в браузере. Теперь должно отобразиться `Hello, World!`.
+
+![image](https://i.imgur.com/k90oGHH.jpeg)
 
 ### 5. Просмотр настроек Apache
 
@@ -75,6 +82,8 @@ docker ps -a
 ```sh
 docker rm containers04
 ```
+
+![image](https://i.imgur.com/K78MBO0.jpeg)
 
 ## Выводы
 В ходе лабораторной работы был запущен контейнер Ubuntu, установлен и запущен сервер Apache, создана и отображена веб-страница "Hello, World!". Также были изучены основные команды работы с Docker.
