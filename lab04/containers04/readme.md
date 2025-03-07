@@ -14,10 +14,9 @@
 Создаём репозиторий `containers04` на GitHub и клонируем его на локальный компьютер:
 
 ```sh
- git clone https://github.com/yourusername/containers04.git
+ git clone https://github.com/alexunderpitropov/containers04.git
  cd containers04
 ```
-
 Создаём файл `README.md` и добавляем описание работы.
 
 ### 2. Запуск контейнера Ubuntu
@@ -26,7 +25,7 @@
 ```sh
 docker run -ti -p 8000:80 --name containers04 ubuntu bash
 ```
-
+![image](https://i.imgur.com/hFMeENg.jpeg)
 ### 3. Установка и запуск Apache
 В контейнере выполняем команды:
 
