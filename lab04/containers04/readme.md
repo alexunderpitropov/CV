@@ -1,5 +1,8 @@
 # Лабораторная работа №4: Запуск контейнера Ubuntu с Apache в Docker
 
+**Питропов Алексаднр,группа I2302**  
+**Дата выполнения:_07.03.2025_**
+
 ## Цель работы
 Данная лабораторная работа призвана напомнить основные команды ОС Debian/Ubuntu. Также она позволит познакомиться с Docker и его основными командами.
 
@@ -77,6 +80,8 @@ exit
 docker ps -a
 ```
 
+![image](https://i.imgur.com/tSKv5go.jpeg)
+
 Удаляем контейнер:
 
 ```sh
@@ -87,3 +92,13 @@ docker rm containers04
 
 ## Выводы
 В ходе лабораторной работы был запущен контейнер Ubuntu, установлен и запущен сервер Apache, создана и отображена веб-страница "Hello, World!". Также были изучены основные команды работы с Docker.
+
+## Библиография
+
+- [Официальная документация Docker](https://docs.docker.com/)
+- [Docker Hub – репозиторий образов](https://hub.docker.com/)
+- [Официальная документация Apache HTTP Server](https://httpd.apache.org/docs/)
+- [DigitalOcean – руководство по установке Apache в Docker](https://www.digitalocean.com/community/tutorials/docker-explained-how-to-containerize-and-use-apache-on-ubuntu)
+- [ChatGPT](https://chat.openai.com)
+
+
